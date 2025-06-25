@@ -1,15 +1,50 @@
 @import url(https://fonts.bunny.net/css?family=poppins:500);
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
+
 body {
-    background-color: #f3f4f6;
-    font-family: 'Poppins', sans-serif;
-    color: #1e293b;
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6em;
-    font-size: 18px;
-    padding: 0;
+  background-color: #f3f4f6;
+  font-family: "Poppins", sans-serif;
+  color: #1e293b;
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6em;
+  font-size: 1em;
+  padding: 0;
+}
+
+.item-box {
+  border: solid;
+  color: #1e293b;
+  padding: 10px;
+  border-radius: 3px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.item-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.note {
+  cursor: help;
+}
+
+.project {
+  border-left: solid;
+  padding-left: 10px;
+}
+
+/* Link styles */
+a {
+  color: #1e293b;
+}
+a:link {
+  text-decoration-color: black;
 }
