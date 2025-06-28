@@ -27,9 +27,17 @@ body {
   gap: 4px;
 }
 
+.featured-box {
+  border-color: oklch(50.5% 0.213 27.518);
+}
+
 .item-wrapper {
   display: flex;
   gap: 10px;
+}
+
+.link-wrapper {
+  cursor: help;
 }
 
 .note {
@@ -38,6 +46,12 @@ body {
 
 .project {
   border-left: solid;
+  padding-left: 10px;
+}
+
+.featured-project {
+  border-left: solid;
+  border-left-color: oklch(50.5% 0.213 27.518);
   padding-left: 10px;
 }
 
